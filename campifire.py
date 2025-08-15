@@ -2,11 +2,7 @@ import random
 import time
 
 lenha = 0
-regeneracao = 0
 sanidade = 100
-perda_sanidade = 0
-consumo_fogueira = 0
-risco_ataque = 0
 luz = 0
 ferimentos = 0
 condicao_fisica = 100
@@ -33,7 +29,7 @@ def dificuldade():
     if escolha == "1":  # Fácil
         perda_sanidade = 1
         regeneracao = 5
-        lenha = 10
+        lenha_inicial = 10
         risco_ataque = 0.05
         consumo_fogueira = 1
         
